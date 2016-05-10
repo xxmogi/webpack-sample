@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <style media="screen">
+    body {
+      margin: 0px;
+      padding: 30px;
+    }
+  </style>
+  <title>knockout sample</title>
+</head>
+
+<body>
+  <span data-bind="text: val"></span>
+
+  <input type="text" data-bind="value: val" />
+
+  <button type="button" data-bind="say">say!</button>
+  <script src="lib/jquery/dist/jquery.min.js" charset="utf-8"></script>
+  <script src="lib/knockout/dist/knockout.js" charset="utf-8"></script>
+  <script src="lib/knockout-es5/dist/knockout-es5.js" charset="utf-8"></script>
+  <script src="./dist/app.bundle.js"></script>
+</body>
+
+</html>
